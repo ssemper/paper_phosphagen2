@@ -12,3 +12,12 @@ Instructions:
 
 - Run the notebook `simulate.ipynb`. This performs the simulations, saves the data needed to create simulation figures in `figure-data`, and saves the figures in `figures`.
 
+If issues arise while resolving the environment on a Windows system, additional steps may be required.  These are:
+
+- Installing Visual Studio 2022
+
+- Downgrading Python to Python version 3.12.04
+
+- In the python terminal, running 'conda install m2w64-gcc-libgfortran'
+
+- Finally, run 'pip install numbaminpack'
