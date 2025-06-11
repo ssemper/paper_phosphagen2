@@ -16,8 +16,4 @@ If issues arise while resolving the environment on a Windows system, additional 
 
 - Installing Visual Studio 2022
 
-- Downgrading Python to Python version 3.12.04
-
-- In the python terminal, running 'conda install m2w64-gcc-libgfortran'
-
-- Finally, run 'pip install numbaminpack'
+- In the miniconda terminal, run 'pip install numbaminpack'
