@@ -2,7 +2,7 @@ name: phos2
 #channels:
 #  - conda-forge
 dependencies:
-  - python #=3.9
+  - python < 3.13
   - pip
   - jupyter
   - numpy # =1.24
@@ -10,6 +10,7 @@ dependencies:
   - pandas # =1.5
   - matplotlib # =3.8
   - numba #=0.60
+  - m2w64-gcc-libgfortran
   - openpyxl
   - pip:
     - NumbaMinpack
