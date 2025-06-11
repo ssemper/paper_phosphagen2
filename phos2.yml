@@ -10,6 +10,6 @@ dependencies:
   - pandas # =1.5
   - matplotlib # =3.8
   - numba #=0.60
-#  - openpyxl
+  - openpyxl
   - pip:
     - NumbaMinpack
