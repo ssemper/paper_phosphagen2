@@ -12,3 +12,8 @@ Instructions:
 
 - Run the notebook `simulate.ipynb`. This performs the simulations, saves the data needed to create simulation figures in `figure-data`, and saves the figures in `figures`.
 
+If issues arise while resolving the environment on a Windows system, additional steps may be required.  These are:
+
+- Installing Visual Studio 2022
+
+- In the miniconda terminal, run 'pip install numbaminpack'
